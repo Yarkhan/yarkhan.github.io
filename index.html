@@ -1,18 +1,135 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Ronilson Amorim (Yarkhan)</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="bootstrap.theme.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-<div style="position: absolute;top:0;left:0;margin:10px">
-	S1<input type="range" id="n1" min="-100.0" max="100.0" step="1.0"><span id="n1val"></span><br>
-	S2<input type="range" id="n2" min="-100.0" max="100.0" step="1.0"><span id="n2val"></span><br>
-	S3<input type="range" id="n3" min="-100.0" max="100.0" step="1.0"><span id="n3val"></span><br>
-	<input type="button" id="clear" value="Limpar">
-</div>
-<canvas id="c"></canvas>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<!--<img src="http://gravatar.com/avatar/ad170c9e2d3e1fa733f9c5300a6d4070" class="pull-left" alt="">-->
+				<h1>Ronilson Amorim</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-8">
+				<div class="row">
+					<div class="col-md-12">
+						<h2><i class="glyphicon glyphicon-user"></i> Sobre</h2><hr>
+						<p>De Planaltina/DF, atualmente morando em Planaltina/GO. Nerd no trabalho e nas horas vagas. 
+						Me interessei por desenvolvimento web em 2009 e venho explorando esse mundo desde então.
+						Passei boa parte do meu tempo envolvido com comunidades onde aprendi e ensinei muitas coisas.
+						Desenvolvi sites, blogs, ecommerces, plataforma de reserva de hospedagens e até emissores de notas fiscais. 
+						Tudo com muito amor, trabalho, café e boa música.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h2><i class="glyphicon glyphicon-briefcase"></i> Trabalho</h2> <hr>
+						<h3>CPMTech <p class="small">Desenvolvedor Web, Jun/2016 ~ Atualmente</p></h3>
+						<p>Trabalhei em diversos projetos, utilizando diversas tecnologias, frameworks e <del>gambiarras</del> técnicas ninja. </p>
+						<h4>Projetos</h4>
+						<div class="row">
+							<div class="col-xs-2">
+								<b class="pull-right">Guardian Doc</b>
+							</div>
+							<div class="col-xs-10">
+								<p>O Guardian é um sistema que auxilia na comunicação entre a contabilidade e seu cliente.
+									Possui um repositório de notas, uma plataforma de comunicação com o cliente e uma calculadora
+									de ICMS muito fera.</p>
+								<b>Destaque:</b>
+								<ul>
+									<li>Fui responsável pela refatoração do Cron que baixava as notas fiscais, que demorava em torno de 9 horas
+									para terminar. Consegui reduzir esse tempo para apenas 30 minutos e baixando 10 vezes mais notas. </li>
 
-<script type="text/javascript" src="../../public/js/jquery.js"></script>
-<script type="text/javascript" src="script.js"></script>
+									<li>Semelhante ao serviço acima, também refatorei um Cron que conferia o status das notas, deixando-o
+									com a capacidade de processar 1000 notas fiscais por minuto. (eram apenas 60 antes de eu chegar)</li>
+
+									<li>Criação de um módulo de registro de eventos, capaz de saber até sobre cliques do mouse no website.</li>
+								</ul>
+								<hr>	
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-2">
+								<b class="pull-right">Labrador</b>
+							</div>
+							<div class="col-xs-10">
+								<p>Um emissor de notas fiscais, gerenciador de contas e tudo mais</p>
+								<b>Destaque:</b>
+								<ul>
+									<li>Recriei o módulo de emissão de notas fiscais</li>
+								</ul>	
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<h3>WebPixel <p class="small">Desenvolvedor Web (Freelancer), 2013/2016</p></h3>
+						<p>Trabalhei na construção de sites, blogs, ecommerces, além na manutenção de diversos outros websites</p>
+					</div>
+				</div>
+
+			</div>
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-12">
+						<h2><i class="glyphicon glyphicon-phone-alt"></i> Contato</h2><hr>
+						<ul class="list-unstyled">
+							<li>Condomínio Diamantina, Setor Oeste, Planaltina-GO</li>
+							<li> <i class="glyphicon glyphicon-earphone"></i>
+								(61) 994-343-837
+							</li>
+							<li> <i class="glyphicon glyphicon-envelope"></i>
+								rasrpg@gmail.com
+							</li>
+							<li><i class="glyphicon glyphicon-indent-left"></i>
+								<a href="http://github.com/Yarkhan">GitHub</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h2><i class="glyphicon glyphicon-ok"></i> Skills</h2><hr>
+						<h3>Back End</h3>
+						<p class="label label-primary">Git</p>
+						<p class="label label-primary">Nodejs</p>
+						<p class="label label-primary">Laravel</p>
+						<p class="label label-primary">FuelPHP</p>
+						<p class="label label-primary">MySql</p>
+						<p class="label label-primary">NFePHP</p>
+						<p class="label label-primary">Python</p>
+						<p class="label label-primary">Slim Framework</p>
+
+						<h3>Front End</h3>
+						<p class="label label-primary">Bootstrap</p>
+						<p class="label label-primary">JavaScript</p>
+						<p class="label label-primary">Vue.js</p>
+						<p class="label label-primary">Knockout.js</p>
+						<p class="label label-primary">jQuery</p>
+						<p class="label label-primary">HTML5</p>
+						<p class="label label-primary">CSS</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h2><i class="glyphicon glyphicon-thumbs-up"></i> Recomendações</h2><hr>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+	</div>
 </body>
 </html>
